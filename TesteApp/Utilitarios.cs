@@ -16,7 +16,7 @@ namespace TesteApp
 
             appiumOptions.AddAdditionalCapability("appium:platformName", "Android");
             appiumOptions.AddAdditionalCapability("appium:deviceName", "emulator-5554");
-            appiumOptions.AddAdditionalCapability("appium:app", "C:/Users/mauri/Desktop/Secullum.CentralApp.TesteAutomatizado/Apk/central_alteracao_ID.apk");
+            appiumOptions.AddAdditionalCapability("appium:app", "E:/Repositorios/centralapp-automatizado/Apk/central_alteracao_ID.apk");
             appiumOptions.AddAdditionalCapability("appium:automationName", "UiAutomator2");
             appiumOptions.AddAdditionalCapability("appium:autoGrantPermissions", true); //Altera todas as permissões do app para true
 

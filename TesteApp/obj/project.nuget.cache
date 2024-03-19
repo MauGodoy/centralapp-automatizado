@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j/Cf1A5CNDjTCNyFv2WfqV9f7CgTDVJA2Wjatk/acSR/3KEN+trQcIV59qWMKieezmwAbFvTePUVynY7VF5sAg==",
+  "dgSpecHash": "HiG2eVEfI80selRyZCNHchnrC0gSQ7GjEJwYsKrK1hcIR2J2vdaC31T1qcdZnC4XJOMg980j5K+6EWuTrqJFOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mauri\\Desktop\\Secullum.CentralApp.TesteAutomatizado\\TesteApp\\TesteApp.csproj",
+  "projectFilePath": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\TesteApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauri\\.nuget\\packages\\appium.webdriver\\4.4.5\\appium.webdriver.4.4.5.nupkg.sha512",
     "C:\\Users\\mauri\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",

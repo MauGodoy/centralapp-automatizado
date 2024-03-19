@@ -43,7 +43,7 @@ namespace Secullum.Central.App.Teste.Automatizado.CartaoPonto
             Thread.Sleep(3000);
             m_Utilitarios.ClicarElementoPagina("botao-cartao-ponto-completo", androidDriver);
 
-            Thread.Sleep(4000);
+            Thread.Sleep(5000);
             m_Utilitarios.ClicarElementoPagina("botao-hamburguer", androidDriver);
 
             Thread.Sleep(2000);

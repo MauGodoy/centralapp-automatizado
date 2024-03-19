@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repositorios\\centralapp-automatizado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1534CE-B8CF-4A21-9B1E-5C9175CCC04F}|TesteApp\\TesteApp.csproj|e:\\repositorios\\centralapp-automatizado\\testeapp\\cartaoponto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1534CE-B8CF-4A21-9B1E-5C9175CCC04F}|TesteApp\\TesteApp.csproj|solutionrelative:testeapp\\cartaoponto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1534CE-B8CF-4A21-9B1E-5C9175CCC04F}|TesteApp\\TesteApp.csproj|e:\\repositorios\\centralapp-automatizado\\testeapp\\utilitarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1534CE-B8CF-4A21-9B1E-5C9175CCC04F}|TesteApp\\TesteApp.csproj|solutionrelative:testeapp\\utilitarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartaoPonto.cs",
+              "DocumentMoniker": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\CartaoPonto.cs",
+              "RelativeDocumentMoniker": "TesteApp\\CartaoPonto.cs",
+              "ToolTip": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\CartaoPonto.cs",
+              "RelativeToolTip": "TesteApp\\CartaoPonto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:44:16.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utilitarios.cs",
+              "DocumentMoniker": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\Utilitarios.cs",
+              "RelativeDocumentMoniker": "TesteApp\\Utilitarios.cs",
+              "ToolTip": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\Utilitarios.cs",
+              "RelativeToolTip": "TesteApp\\Utilitarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:37:33.986Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

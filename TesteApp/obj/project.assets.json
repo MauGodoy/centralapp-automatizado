@@ -6627,11 +6627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mauri\\Desktop\\Secullum.CentralApp.TesteAutomatizado\\TesteApp\\TesteApp.csproj",
+      "projectUniqueName": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\TesteApp.csproj",
       "projectName": "TesteApp",
-      "projectPath": "C:\\Users\\mauri\\Desktop\\Secullum.CentralApp.TesteAutomatizado\\TesteApp\\TesteApp.csproj",
+      "projectPath": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\TesteApp.csproj",
       "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mauri\\Desktop\\Secullum.CentralApp.TesteAutomatizado\\TesteApp\\obj\\",
+      "outputPath": "E:\\Repositorios\\centralapp-automatizado\\TesteApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
