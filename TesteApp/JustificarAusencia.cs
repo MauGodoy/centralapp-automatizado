@@ -6,7 +6,7 @@ namespace Secullum.Central.App.Teste.Automatizado.JustificarAusencia
     [TestClass]
     public class JustificarAusencia
     {
-        private Utilitarios m_Utilitarios;
+        private Utilitarios? m_Utilitarios;
 
         public required AndroidDriver<AndroidElement> m_AndroidDriver;
 
@@ -18,7 +18,7 @@ namespace Secullum.Central.App.Teste.Automatizado.JustificarAusencia
             var androidDriver = m_Utilitarios.EfetuarProcessoLogin();
 
             Thread.Sleep(3000);
-            var botaoCadastrarEmailAgoraNao = m_Utilitarios.BuscarElementoPorIdSecullum("aviso-cadastrar-email-botao-agora-nao", androidDriver);
+            var botaoCadastrarEmailAgoraNao = m_Utilitarios.BuscarElementoPorIdSecullum("aviso-cadastrar-email-botao-agora-nao");
 
             //Não cadastramos o email nesse teste
             if (botaoCadastrarEmailAgoraNao != null)
@@ -27,17 +27,16 @@ namespace Secullum.Central.App.Teste.Automatizado.JustificarAusencia
             }
 
             Thread.Sleep(3000);
-            m_Utilitarios.ClicarElementoPagina("botao-hamburguer", androidDriver);
+            m_Utilitarios.BuscarAccessibilityId("botao-hamburguer").Click();
 
             Thread.Sleep(3000);
-            m_Utilitarios.ClicarElementoPagina("menu-justificar-ausencia", androidDriver);
+            m_Utilitarios.BuscarAccessibilityId("menu-justificar-ausencia").Click();
 
             Thread.Sleep(4000);
-            m_Utilitarios.ClicarElementoPagina("botao-hamburguer", androidDriver);
+            m_Utilitarios.BuscarAccessibilityId("botao-hamburguer").Click();
 
             Thread.Sleep(3000);
-            RolarTela("Sair", androidDriver);
-
+            m_Utilitarios.RolarTela("Sair");
         }
 
         [TestCleanup]
@@ -48,12 +47,6 @@ namespace Secullum.Central.App.Teste.Automatizado.JustificarAusencia
             {
                 m_AndroidDriver.Quit();
             }
-        }
-
-        private void RolarTela(string elemento, AndroidDriver<AndroidElement> androidDriver)
-        {
-            var m_AndroidDriver = androidDriver;
-            m_AndroidDriver.FindElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"" + elemento + "\").instance(0))").Click();
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Secullum.Central.App.Teste.Automatizado.Notificacoes
     [TestClass]
     public class Notificacoes
     {
-        private Utilitarios m_Utilitarios;
+        private Utilitarios? m_Utilitarios;
 
         public required AndroidDriver<AndroidElement> m_AndroidDriver;
 
@@ -19,7 +19,7 @@ namespace Secullum.Central.App.Teste.Automatizado.Notificacoes
 
             Thread.Sleep(3000);
 
-            var botaoCadastrarEmailAgoraNao = m_Utilitarios.BuscarElementoPorIdSecullum("aviso-cadastrar-email-botao-agora-nao", androidDriver);
+            var botaoCadastrarEmailAgoraNao = m_Utilitarios.BuscarElementoPorIdSecullum("aviso-cadastrar-email-botao-agora-nao");
 
             //Não cadastramos o email nesse teste
             if (botaoCadastrarEmailAgoraNao != null)
@@ -28,10 +28,10 @@ namespace Secullum.Central.App.Teste.Automatizado.Notificacoes
             }
 
             Thread.Sleep(3000);
-            m_Utilitarios.ClicarElementoPagina("botao-notificacoes", androidDriver);
+            m_Utilitarios.BuscarAccessibilityId("botao-notificacoes").Click();
 
             Thread.Sleep(4000);
-            m_Utilitarios.ClicarElementoPagina("botao-hamburguer", androidDriver);
+            m_Utilitarios.BuscarAccessibilityId("botao-hamburguer").Click();
 
             Thread.Sleep(2000);
             RolarTela("Sair", androidDriver);
